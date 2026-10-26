@@ -4,23 +4,27 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <header>
-        <nav>
-            <a href="/html/""> HTML </a>
-            <a href="/css/""> CSS </a>
-            <a href="/js/""> JavaScript </a>
-            <a href="/jquery/""> jQuery </a>
-        </nav> 
-    </header>
+    <header></header>
     <main>
-        <section>
-            <h1> Contact information <h1>
-            <p> Go My Code is an EdTech Startup.. </p>
-        </section>
-        <article>
-            <h1> What is the perks of being a Web Developer? <h1>
-            <!-- Article contents -->
-        </article>
+      <form>
+        <label>Name:</label>
+        <input
+          type="text"
+          name="first name"
+          placeholder="Type your name here"
+        />
+        <br />
+        <label>Number:</label>
+        <input type="number" name="number" value="23123456" />
+        <br />
+        <label>Birth Date:</label>
+        <input type="date" name="birthday" />
+        <br />
+        <label>Password:</label>
+        <input type="password" name="password" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
     </main>
     <footer></footer>
   </body>
